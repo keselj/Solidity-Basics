@@ -137,4 +137,67 @@ contract SolidityDataTypes{
     int248 public number248Bit;
     // from -5.7896045e+76 to 5.7896045e+76 (from -(2**256-1)) to 2**(256-1)-1)
     int256 public number256Bit;
+
+    address public VitalikButerin(ВиталикБутерин) = 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045;
+
+    enum evmCompatibleBlockchains {
+        Arbitrum, Avalanche, Astar, Aurora, 
+        BSC, BNB Smart Chain, Boba Network, 
+        Cardano, Callisto, Celo, Cosmos, CoinEx, Cronos,
+        Elastos, Ethereum, Emerald, Energy Web, Evmos,
+        Fantom, Fuse, Fusion, 
+        Gnosis, Godwoken, 
+        Harmony, Hoo, Huobi,
+        KCC, Klaytn, 
+        IoTeX, 
+        Metis, Meter, Moonriver, Moonbeam, 
+        Nahmii, Nova,
+        OKXChain, Optimism, 
+        Polygon, 
+        RSK, 
+        Smart Bitcoin, Songbird Canary, Solana, Syscoin, 
+        Telos EVM, Theta, ThunderCore, Tron, TomoChain, 
+        Ubiq, 
+        Velas EVM,
+        Wanchain, 
+        XinFin, 
+        zkSync
+         };
+
+
+    bytes1 public oneByte;
+    bytes2 public twoByte;
+    bytes3 public threeByte;
+    bytes4 public fourByte;
+    bytes5 public fiveByte;
+    bytes6 public sixByte;
+    bytes7 public sevenByte;
+    bytes8 public eightByte;
+    bytes9 public nineByte;
+    bytes10 public tenByte;
+    bytes11 public elevenByte;
+    bytes12 public twelveByte;
+    bytes13 public thirteenByte;
+    bytes14 public fourteenByte;
+    bytes15 public fifteenByte;
+    bytes16 public sixteenByte;
+    bytes17 public seventeenByte;
+    bytes18 public eighteenByte;
+    bytes19 public nineteenByte;
+    bytes20 public twentyByte;
+    bytes21 public twenty-oneByte;
+    bytes22 public twenty-twByte;
+    bytes23 public twenty-threeByte;
+    bytes24 public twenty-fourByte;
+    bytes25 public twenty-fiveByte;
+    bytes26 public twenty-sixByte;
+    bytes27 public twenty-sevenByte;
+    bytes28 public twenty-eightByte;
+    bytes29 public twenty-nineByte;
+    bytes30 public thirtyByte;
+    bytes31 public thirty-oneByte;
+    bytes32 public thirty-twoByte;
+
+
+
 }
