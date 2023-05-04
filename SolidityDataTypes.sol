@@ -138,31 +138,31 @@ contract SolidityDataTypes{
     // from -5.7896045e+76 to 5.7896045e+76 (from -(2**256-1)) to 2**(256-1)-1)
     int256 public number256Bit;
 
-    address public VitalikButerin(ВиталикБутерин) = 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045;
+    address public VitalikButerin = 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045;
 
     enum evmCompatibleBlockchains {
-        Arbitrum, Avalanche, Astar, Aurora, 
-        BSC, BNB Smart Chain, Boba Network, 
-        Cardano, Callisto, Celo, Cosmos, CoinEx, Cronos,
-        Elastos, Ethereum, Emerald, Energy Web, Evmos,
-        Fantom, Fuse, Fusion, 
-        Gnosis, Godwoken, 
-        Harmony, Hoo, Huobi,
-        KCC, Klaytn, 
-        IoTeX, 
-        Metis, Meter, Moonriver, Moonbeam, 
-        Nahmii, Nova,
-        OKXChain, Optimism, 
-        Polygon, 
-        RSK, 
-        Smart Bitcoin, Songbird Canary, Solana, Syscoin, 
-        Telos EVM, Theta, ThunderCore, Tron, TomoChain, 
-        Ubiq, 
-        Velas EVM,
-        Wanchain, 
-        XinFin, 
-        zkSync
-         };
+    ARBITRUM, AVALANCHE, ASTAR, AURORA,
+    BSC, BNB_SMART_CHAIN, BOBA_NETWORK, 
+    CARDANO, CALLISTO, CELO, COSMOS, COINEX, CRONOS,
+    ELASTOS, ETHEREUM, EMERALD, ENERGY_WEB, EVMOS,
+    FANTOM, FUSE, FUSION, 
+    GNOSIS, GODWOKEN, 
+    HARMONY, HOO, HUOBI,
+    KCC, KLAYTN, 
+    IOTEX, 
+    METIS, METER, MOONRIVER, MOONBEAM, 
+    NAHMII, NOVA,
+    OKXCHAIN, OPTIMISM, 
+    POLYGON, 
+    RSK, 
+    SMART_BITCOIN, SONGBIRD_CANARY, SOLANA, SYSCOIN, 
+    TELOS_EVM, THETA, THUNDERCORE, TRON, TOMOCHAIN, 
+    UBIQ, 
+    VELAS_EVM,
+    WANCHAIN, 
+    XINFIN, 
+    ZKSYNC 
+    }
 
 
     bytes1 public oneByte;
@@ -185,18 +185,18 @@ contract SolidityDataTypes{
     bytes18 public eighteenByte;
     bytes19 public nineteenByte;
     bytes20 public twentyByte;
-    bytes21 public twenty-oneByte;
-    bytes22 public twenty-twByte;
-    bytes23 public twenty-threeByte;
-    bytes24 public twenty-fourByte;
-    bytes25 public twenty-fiveByte;
-    bytes26 public twenty-sixByte;
-    bytes27 public twenty-sevenByte;
-    bytes28 public twenty-eightByte;
-    bytes29 public twenty-nineByte;
+    bytes21 public twentyOneByte;
+    bytes22 public twentyTwoByte;
+    bytes23 public twentyThreeByte;
+    bytes24 public twentyFourByte;
+    bytes25 public twentyFiveByte;
+    bytes26 public twentySixByte;
+    bytes27 public twentySevenByte;
+    bytes28 public twentyEightByte;
+    bytes29 public twentyNineByte;
     bytes30 public thirtyByte;
-    bytes31 public thirty-oneByte;
-    bytes32 public thirty-twoByte;
+    bytes31 public thirtyOneByte;
+    bytes32 public thirtyTwoByte;
 
 
 
