@@ -1,8 +1,8 @@
-#solidity-basics
+# solidity-basics
 
 These are files that contain all the Solidity Data Types and all the Solidity Reference Types.
 
-##Solidity Data Types
+## Solidity Data Types
 
 This file contains all Solidity data types:
 
@@ -13,7 +13,7 @@ This file contains all Solidity data types:
 5.From bytes1 till bytes32 (un step of 1)
 6.Enum
 
-##Solidity Reference Types
+## Solidity Reference Types
 
 This file contains all Solidity reference types:
 
