@@ -10,7 +10,7 @@ This file contains all Solidity data types:
 2. From int8 till int256 (in steps of 8).
 3. Boolean
 4. Address
-5. From bytes1 till bytes32 (un step of 1)
+5. From bytes1 till bytes32 (in steps of 1)
 6. Enum
 
 ## Solidity Reference Types
