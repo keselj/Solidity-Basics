@@ -24,3 +24,25 @@ This file contains all Solidity reference types:
 5. Byte arrays
 6. Structs
 7. Mapping
+
+## Solidity Functions 
+
+This file contains all different types of functions:
+
+1. Constructor
+2. Modifier
+3. Function
+
+As well as visibility of functions:
+
+1. Public
+2. Private
+3. External
+4. internal
+
+As well as build in modifiers in solidity:
+
+1. Pure
+2. View
+3. Non-Payable
+4. Payable
