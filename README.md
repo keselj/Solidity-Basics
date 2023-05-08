@@ -1,6 +1,6 @@
 # solidity-basics
 
-These are files that contain all the Solidity Data Types and all the Solidity Reference Types.
+These are files that contain all the Solidity Data Types, all the Solidity Reference Types and Solidity Functions
 
 ## Solidity Data Types
 
